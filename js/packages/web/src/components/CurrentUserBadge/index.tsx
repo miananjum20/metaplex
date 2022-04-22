@@ -66,7 +66,7 @@ const UserActions = (props: { mobile?: boolean; onClick?: any }) => {
                 }}
                 className="black-btn"
               >
-                Sell
+                Sell 1
               </Button>
             </Link>  )}
           </div>
@@ -88,7 +88,7 @@ const UserActions = (props: { mobile?: boolean; onClick?: any }) => {
           
             <Link to={`/auction/create/0`} style={{ width: '100%' }}>
               <Button className="metaplex-button-default" style={btnStyle}>
-                Sell
+                Sell 2
               </Button>
             </Link>
               )}
