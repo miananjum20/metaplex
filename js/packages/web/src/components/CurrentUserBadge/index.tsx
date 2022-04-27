@@ -58,7 +58,6 @@ const UserActions = (props: { mobile?: boolean; onClick?: any }) => {
                 </Button>
               </Link>
             )}
-           {canCreate && (
             <Link to={`/auction/create/0`}>
               <Button
                 onClick={() => {
@@ -66,9 +65,9 @@ const UserActions = (props: { mobile?: boolean; onClick?: any }) => {
                 }}
                 className="black-btn"
               >
-                Sell.
+                Sell 1
               </Button>
-            </Link>  )}
+            </Link>
           </div>
         ) : (
           <div
@@ -85,14 +84,12 @@ const UserActions = (props: { mobile?: boolean; onClick?: any }) => {
                 </Link>
                 &nbsp;&nbsp;
               </>
-          
+            )}
             <Link to={`/auction/create/0`} style={{ width: '100%' }}>
               <Button className="metaplex-button-default" style={btnStyle}>
-                Sell ..
+                Sell 2
               </Button>
             </Link>
-              )}
-          
           </div>
         ))}
     </>
