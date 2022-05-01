@@ -45,7 +45,7 @@ export const ENDPOINTS: Array<Endpoint> = [
   {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
-    url: 'https://api.metaplex.solana.com/',
+    url: 'https://thrumming-withered-surf.solana-mainnet.quiknode.pro/1e6d5ff3ffbed31efc3bd70721db245023af2e65/',
     chainId: ChainId.MainnetBeta,
   },
   {
